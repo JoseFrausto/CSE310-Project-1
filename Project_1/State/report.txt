@@ -1,0 +1,20 @@
+* Name: Jose Frausto
+* Instructor: Dr. Jingrui He
+* Date: 09/09/2015
+
+Problems encountered:
+	1. The Eclipse and Visual Studio versions of the p1.cpp that I tried to use were incombatible  		with the general.asu.edu server's compiler. To solve this problem I knew I had two choices:
+	edit it inside the server using vim, or use a Unix OS to fix the problems. I used the latter.
+	2. The clock. It worked fine with Eclipse, Visual Studio, and on gedit (Ubuntu 15.04) with up 		to date gcc/g++ compiler. The problem with it is that the time it shows on my Linux machine is 		accurate to 3 decimal places. However the general.asu.edu server always rounds it to the 	 nearest whole number. Which doesn't make sense to me because I used floats to calculate my 		time.
+	
+Bugs: 
+	The clock problem was the only one that could not get resolved, I didn't test it enough but
+	I can only assume that the server is rounding to the nearest whole number. Since InsertionSort
+	runs fast, it rounds down to 0 everytime.
+References: 
+	I used this website as a reference for strings, arrays, and any syntax that I needed a 		refresher for.
+	www.cplusplus.com/reference/
+	
+	I used this website's Makefile as a template to create my own.
+	http://mrbook.org/blog/tutorials/make/
+	
